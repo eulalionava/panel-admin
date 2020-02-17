@@ -1,0 +1,151 @@
+body{
+    background: #f2f2f2;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+/****BARRA LATERAL*******/
+.barra-lateral{
+    background: #262a34;
+    color:#fff;
+    min-width: 200px;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.barra-lateral a{
+    color: #fff;
+}
+
+/* ---- LOGO ----*/
+.barra-lateral .logo{
+    background: #0725db;
+    margin-bottom: 2px;
+
+}
+.barra-lateral .logo h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* ---- MENU -----*/
+.barra-lateral .menu a{
+    display: block;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255,255,255,.1    );
+}
+.barra-lateral .menu a:hover{
+    background: #35ae6b;
+    text-decoration: none;
+}
+
+.barra-lateral .menu a i{
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+/******MAIN******/
+.main{
+    padding-top: 40px;
+}
+.main .columna{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main .titulo{
+    color: #262a34;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.main .widget{
+    margin-bottom: 40px;
+}
+
+/**Widget de entrada**/
+
+.main .widget form input[type="text"],
+.main .widget form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0,2);
+}
+
+.main .widget form input[type="text"]{
+    font-weight: 400;
+
+}
+
+.main .widget form textarea{
+    height: 400px;
+    min-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.main .widget form button{
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+
+/*--Widget de estadisticas--*/
+.main .estadisticas .contenedor{
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,.2);
+
+}
+
+.main .estadisticas .caja{
+    background: #fff;
+    border: 1px solid #c3c3c3;
+    padding: 40px 20px;
+    flex: 1;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main .estadisticas .caja h5{
+    margin-bottom: 10px;
+    color: green;
+}
+
+
+/* -------Widget Comentarios------*/
+.main .comentarios .contenedor{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0,.2);
+}
+.main .comentarios .comentario{
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.main .comentarios .comentario .foto{
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+.main .comentarios .comentario .foto a{
+    display: inline-block;
+}
+.main .comentarios .comentario .foto img{
+    width: 100%;
+}
+.main .comentarios .comentario .texto{
+    flex: 1;
+}
+.main .comentarios .comentario .texto .text-comentario{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
